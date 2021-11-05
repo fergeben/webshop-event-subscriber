@@ -1,0 +1,6 @@
+package systems.sixty.webshop
+
+import io.quarkus.test.junit.NativeImageTest
+
+@NativeImageTest
+class NativeReactiveGreetingResourceIT extends ReactiveGreetingResourceTest
